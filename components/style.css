@@ -1,11 +1,13 @@
 
 body {
-    margin: 0;
-    padding: 0;
+    
+    
+    padding: 10px;
+    border: blue;
 }
 
 nav {
-    background-color: black;
+    background-color: rgb(25, 25, 27);
     padding: 10px;
     display: block;
     justify-content: center;
@@ -15,4 +17,30 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 300px 10px 10px 300px;
+}
+
+.home{
+    font-weight: bolder;
+  
+    
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:"400";
+    width:"450";
+}
+.contact{
+    margin-top: 200px;
+    display: block;
+    text-align: center;    
+}
+
+.services{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
 }
